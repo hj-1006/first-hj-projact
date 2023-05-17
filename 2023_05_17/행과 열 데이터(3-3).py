@@ -24,4 +24,8 @@ print("열 데이터(미술)을 추가/n",df)
 df.loc[6] = ["G",90,92,94,96,92,98]
 print("행 데이터(G)을 추가/n",df)
 
-#
+#삭제
+print("국어 열",df.dorp("국어",axis=1))
+
+print("인덱스2행\n",df.dorp(2,axis=0))
+#마지막
